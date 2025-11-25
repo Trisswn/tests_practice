@@ -6,5 +6,5 @@ class LogBuffer {
     if (_logs.length > 5) _logs.removeAt(0);
   }
 
-  List<String> getLogs() => List.from(_logs);
+  List<String> getLogs() => List.unmodifiable(_logs);
 }

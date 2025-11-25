@@ -1,3 +1,3 @@
 class CommandProtocol {
-  String createCommand(String action, dynamic data) => '$action:$data';
+  String createCommand(String action, String data) => '$action:$data';
 }
